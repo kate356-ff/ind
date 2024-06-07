@@ -22,7 +22,7 @@
 
 html {
     box-sizing: border-box;
-    max-width: 1920px;
+
 }
 
 *, 
@@ -40,7 +40,7 @@ body {
     line-height: 1.2;
     font-weight: normal;
     color: #142251;
-    min-width: 320px;
+
 }
 .wrapper {
     max-width: 1822px;
