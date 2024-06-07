@@ -111,8 +111,9 @@ margin-right: 0;
 .header__link:hover,
 .header__link:focus,
 .header__link:active {
-color: #213887;
+color: #8d3232;
 }
+
 /* header style*/
 
 /* intro style*/
@@ -553,7 +554,6 @@ color: #213887;
     padding-top: 320px;
 }
 .clients__cards {
-    width: 940px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -613,6 +613,11 @@ footer {
     display: none;
 }
 
+.button__intro:hover,
+.button__intro:focus {
+    background-color: #94a2cf;
+    cursor: pointer;
+}
 
 @media (max-width: 1100px) {
     .wrapper {
@@ -686,6 +691,26 @@ footer {
 }
 }
 
+.lifoo:focus,
+.lifoo:hover,
+.lifoo:active {
+    color: #8d3232;
+}
+.foopo:focus,
+.foopo:hover,
+.foopo:active {
+    color: #8d3232;
+}
+
+.button__card:hover,
+.button__card:focus {
+    background-color: #8d3232;
+}
+
+.card1_color:hover,
+.card1_color:focus {
+    background-color: #94a2cf;
+}
 
 @media (max-width: 1200px) {
     .picture__about {
@@ -697,7 +722,7 @@ footer {
         justify-content: center;
     }
 }
-@media (max-width: 1600px) {
+@media (max-width: 1800px) {
     .services__wrap {
     max-width: 100%;
     height: auto;
@@ -797,7 +822,7 @@ footer {
         display: none;
     }
 }
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
     .clients__wrap {
         max-width: 100%;
         padding: 0 20px;
