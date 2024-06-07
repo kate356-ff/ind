@@ -597,15 +597,16 @@ color: #213887;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 37px;
+    padding-top: 50px;
 }
 footer {
     position: relative;
     max-width: 1822px;
     margin: 0 auto;
 }
-.stroke {
+/* .stroke {
     padding: 60px 0;
-}
+} */
 
 
 .navbar-toggler {
