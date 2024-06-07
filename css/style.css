@@ -117,6 +117,17 @@ color: #213887;
 
 /* intro style*/
 
+.text__link1:focus,
+.text__link1:hover,
+.text__link1:active {
+    color: #8d3232;
+}
+
+.text__link2:focus,
+.text__link2:hover,
+.text__link2:active {
+    color: #8d3232;
+}
 .intro {
     font-family:'gilroymedium';
     height: 100vh;
@@ -615,6 +626,8 @@ footer {
     }
     .intro__title {
         font-size: 80px;
+        line-height: 80px;
+        font-weight: 400;
     }
     .intro__subtitle {
         font-size: 20px;
